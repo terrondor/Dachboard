@@ -17,3 +17,11 @@ class InventoryDataProvider(DataProvider):
 class ProductDataProvider(DataProvider):
     def get_data(self) -> Dict[str, float]:
         return {"Category 1": 35.5, "Category 2": 45.2, "Category 3": 19.3}
+
+class SalesYearDataProvider(DataProvider):
+    def get_data(self) -> Dict[int, int]:
+        return {2019: 150, 2020: 300, 2021: 450, 2022: 500}
+
+class InventoryMonthDataProvider(DataProvider):
+    def get_data(self) -> Dict[str, int]:
+        return {"Jan": 100, "Feb": 120, "Mar": 90, "Apr": 110}
