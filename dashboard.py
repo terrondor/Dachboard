@@ -1,4 +1,4 @@
-import tkinter as tk
+"""import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 from data import sales_data, inventory_data, product_data, sales_year_data, inventory_month_data
@@ -94,4 +94,4 @@ canvas5.draw()
 canvas5.get_tk_widget().pack(side="left", fill="both", expand=True)
 
 # Запуск основного цикла приложения
-root.mainloop()
+root.mainloop()"""
